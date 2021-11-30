@@ -1,5 +1,12 @@
 # font_awesome_flutter_named
 
+## Live Example
+
+An online live example can be found [here](https://peiffer-innovations.github.io/font_awesome_flutter_named/web/#/)
+
+
+## Introduction
+
 With many thanks to the [![Flutter Community: font_awesome_flutter](https://fluttercommunity.dev/_github/header/font_awesome_flutter)](https://github.com/fluttercommunity/community) for creating the vast majority of the work required for this package.
 
 This is built based off of [![Pub](https://img.shields.io/pub/v/font_awesome_flutter.svg)](https://pub.dartlang.org/packages/font_awesome_flutter)

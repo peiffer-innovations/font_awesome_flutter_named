@@ -18,6 +18,7 @@ jobs:
       - name: Configure
         shell: bash
         run: |
+          flutter packages get
           dart ./tools/generate.dart
 
       - name: Validate

@@ -35,8 +35,8 @@ jobs:
           channel: "stable"
 
       - name: Configure
+        shell: bash
         run: |
-          sudo apt-get install pushd
           sh util/configurator.sh
 
       - name: Validate

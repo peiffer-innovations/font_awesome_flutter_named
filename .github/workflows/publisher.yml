@@ -18,7 +18,10 @@ jobs:
       - name: Configure
         shell: bash
         run: |
-          sh util/configurator.sh
+          cd util
+          pub get
+          cd ..
+          dart ./util/lib/main.dart
 
       - name: Validate
         uses: peiffer-innovations/actions-flutter-validate@v1.1.1

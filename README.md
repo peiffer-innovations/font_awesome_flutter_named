@@ -30,7 +30,7 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return IconButton(
       // Use the FaIcon Widget + FontAwesomeIcons class for the IconData
-      icon: FaIcon(FontAwesomeIcons.gamepad), 
+      icon: FaIcon(faIconNameMapping['gamepad']!),
       onPressed: () { print("Pressed"); }
      );
   }
@@ -45,7 +45,7 @@ Due to restrictions in dart, icons starting with numbers have those numbers writ
 #### Examples:
 Icon name | Code | Style
 --- | --- | ---
-[angle-double-up](https://fontawesome.com/icons/angle-double-up?style=solid) | `FontAwesomeIcons.angleDoubleUp` | solid _(this icon does not have other free styles)_
-[arrow-alt-circle-up](https://fontawesome.com/icons/arrow-alt-circle-up?style=regular) | `FontAwesomeIcons.arrowAltCircleUp` | regular
-[arrow-alt-circle-up](https://fontawesome.com/icons/arrow-alt-circle-up?style=solid) |  `FontAwesomeIcons.solidArrowAltCircleUp` | solid
-[1](https://fontawesome.com/icons/1?style=solid) | `FontAwesomeIcons.solidOne` | solid
+[angle-double-up](https://fontawesome.com/icons/angle-double-up?style=solid) | `faIconNameMapping['angleDoubleUp']` | solid _(this icon does not have other free styles)_
+[arrow-alt-circle-up](https://fontawesome.com/icons/arrow-alt-circle-up?style=regular) | `faIconNameMapping['arrowAltCircleUp']` | regular
+[arrow-alt-circle-up](https://fontawesome.com/icons/arrow-alt-circle-up?style=solid) |  `faIconNameMapping['solidArrowAltCircleUp']` | solid
+[1](https://fontawesome.com/icons/1?style=solid) | `faIconNameMapping['solidOne']` | solid

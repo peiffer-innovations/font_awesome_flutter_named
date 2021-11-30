@@ -12,7 +12,7 @@ With many thanks to the [![Flutter Community: font_awesome_flutter](https://flut
 This is built based off of [![Pub](https://img.shields.io/pub/v/font_awesome_flutter.svg)](https://pub.dartlang.org/packages/font_awesome_flutter)
 
 
-This package generates the names of the fonts provided by the dependant `font_asome_flutter` package.  It does not actually include the font files themselves.
+This package generates the names of the fonts provided by the dependant `font_awesome_flutter` package.  It does not actually include the font files themselves.
 
 ## Font Names
 

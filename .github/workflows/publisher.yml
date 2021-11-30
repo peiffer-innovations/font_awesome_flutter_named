@@ -13,7 +13,7 @@ jobs:
 
       - name: Configure
         run: |
-          apt-get pushd
+          apt-get install pushd
           sh util/configurator.sh
 
       - name: Validate

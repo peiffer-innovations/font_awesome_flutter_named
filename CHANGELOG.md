@@ -1,3 +1,8 @@
+## 1.0.1
+
+* Renamed tools to tool
+
+
 ## 1.0.0+1
 
 * Initial Release

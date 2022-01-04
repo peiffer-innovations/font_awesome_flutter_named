@@ -12,7 +12,7 @@ const RESOURCES = {
 "manifest.json": "00e0b69b49487ce4f9ff0c5fac8fda49",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"assets/NOTICES": "43d3044c252e0a327a98ecd3a47f7c02",
+"assets/NOTICES": "dc1d19d912b725ee7f07207bca6571e5",
 "assets/AssetManifest.json": "e26ab0f0a9ebee8025260de29a88a4ca",
 "assets/FontManifest.json": "3ddd9b2ab1c2ae162d46e3cc7b78ba88",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",

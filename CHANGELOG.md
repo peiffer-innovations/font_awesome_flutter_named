@@ -1,3 +1,8 @@
+## 1.1.0
+
+* Updated to latest Font Awesome dependency
+
+
 ## 1.0.1+2
 
 * GH Workflow

@@ -1,3 +1,4 @@
+// ignore_for_file: deprecated_member_use
 library font_awesome_flutter_named;
 
 import 'package:flutter/widgets.dart';
@@ -12,7 +13,6 @@ const Map<String, IconData> faIconNameMapping = {
   'fiveHundredPx': FontAwesomeIcons.fiveHundredPx,
   'accessibleIcon': FontAwesomeIcons.accessibleIcon,
   'accusoft': FontAwesomeIcons.accusoft,
-  'acquisitionsIncorporated': FontAwesomeIcons.acquisitionsIncorporated,
   'ad': FontAwesomeIcons.ad,
   'solidAddressBook': FontAwesomeIcons.solidAddressBook,
   'addressBook': FontAwesomeIcons.addressBook,
@@ -1057,7 +1057,6 @@ const Map<String, IconData> faIconNameMapping = {
   'penSquare': FontAwesomeIcons.penSquare,
   'pencilAlt': FontAwesomeIcons.pencilAlt,
   'pencilRuler': FontAwesomeIcons.pencilRuler,
-  'pennyArcade': FontAwesomeIcons.pennyArcade,
   'peopleArrows': FontAwesomeIcons.peopleArrows,
   'peopleCarry': FontAwesomeIcons.peopleCarry,
   'pepperHot': FontAwesomeIcons.pepperHot,

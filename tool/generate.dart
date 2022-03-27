@@ -18,6 +18,11 @@ class IconMetadata {
       this.name, this.label, this.unicode, this.searchTerms, this.styles);
 }
 
+const List<String> ignoredIcons = [
+  'acquisitionsIncorporated',
+  'pennyArcade',
+];
+
 const Map<String, String> nameAdjustments = {
   "500px": "fiveHundredPx",
   "360-degrees": "threeHundredSixtyDegrees",
@@ -146,6 +151,7 @@ to complete successfully.
   print(blue('Generating name to icon mapping'));
 
   List<String> output = [
+    '// ignore_for_file: deprecated_member_use',
     'library font_awesome_flutter_named;',
     '',
     "import 'package:flutter/widgets.dart';",
@@ -163,7 +169,10 @@ to complete successfully.
   for (var icon in icons) {
     for (var style in icon.styles.where((style) => style != "duotone")) {
       iconName = normalizeIconName(icon.name, style, icon.styles.length);
-      output.add("'$iconName': FontAwesomeIcons.$iconName,");
+
+      if (!ignoredIcons.contains(iconName)) {
+        output.add("'$iconName': FontAwesomeIcons.$iconName,");
+      }
     }
   }
 

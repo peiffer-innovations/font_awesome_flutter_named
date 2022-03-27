@@ -4,12 +4,12 @@ homepage: https://github.com/peiffer-innovations/font_awesome_flutter_named
 version: 1.0.1+2
 
 environment:
-  sdk: ">=2.15.0 <3.0.0"
+  sdk: ">=2.16.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  font_awesome_flutter: ^9.2.0
+  font_awesome_flutter: ^10.1.0
 
 dev_dependencies:
   ansicolor: ^2.0.1

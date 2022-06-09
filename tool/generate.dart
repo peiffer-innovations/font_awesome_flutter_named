@@ -36,6 +36,7 @@ const Map<String, String> nameAdjustments = {
   "8": "eight",
   "9": "nine",
   "0": "zero",
+  "42-group": "fortyTwoGroup"
 };
 
 final AnsiPen red = AnsiPen()..xterm(009);
@@ -50,11 +51,11 @@ final AnsiPen yellow = AnsiPen()..xterm(011);
 /// 1. Check if icons.json exists in project root (or in lib/fonts)
 /// if icons.json does not exist:
 ///   1.1 download official, free icons.json from github
-///     https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/metadata/icons.json
+///     https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/metadata/icons.json
 ///   1.2 download official, free icons and replace existing
-///     https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/webfonts/fa-brands-400.ttf
-///     https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/webfonts/fa-regular-400.ttf
-///     https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/webfonts/fa-solid-900.ttf
+///     https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/webfonts/fa-brands-400.ttf
+///     https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/webfonts/fa-regular-400.ttf
+///     https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/webfonts/fa-solid-900.ttf
 /// 3. filter out unwanted icon styles
 /// 4. build icons, example
 /// if dynamic icons requested:
@@ -83,16 +84,16 @@ void main(List<String> rawArgs) async {
   if (!hasCustomIconsJson) {
     print(blue('No icons.json found, updating free icons'));
     await download(
-        'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/metadata/icons.json',
+        'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/metadata/icons.json',
         File('assets/fonts/icons.json'));
     // await download(
-    //     'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/webfonts/fa-brands-400.ttf',
+    //     'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/webfonts/fa-brands-400.ttf',
     //     File('assets/fonts/fa-brands-400.ttf'));
     // await download(
-    //     'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/webfonts/fa-regular-400.ttf',
+    //     'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/webfonts/fa-regular-400.ttf',
     //     File('assets/fonts/fa-regular-400.ttf'));
     // await download(
-    //     'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/master/webfonts/fa-solid-900.ttf',
+    //     'https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/webfonts/fa-solid-900.ttf',
     //     File('assets/fonts/fa-solid-900.ttf'));
   } else {
     print(blue('Custom icons.json found, generating files'));

@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [font_awesome_flutter_named](#font_awesome_flutter_named)
+  - [Live Example](#live-example)
+  - [Introduction](#introduction)
+  - [Font Names](#font-names)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Icon names](#icon-names)
+      - [Examples:](#examples)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # font_awesome_flutter_named
 
 ## Live Example

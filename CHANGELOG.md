@@ -1,3 +1,8 @@
+## [1.1.1] - June 21st, 2022
+
+* Updated to use the 6.x branch rather than `master`.
+
+
 ## [1.1.0+1] - June 21, 2022
 
 * Automated dependency updates

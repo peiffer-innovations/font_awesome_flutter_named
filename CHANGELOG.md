@@ -1,3 +1,8 @@
+## [1.1.1+1] - September 13, 2022
+
+* Automated dependency updates
+
+
 ## [1.1.1] - June 21st, 2022
 
 * Updated to use the 6.x branch rather than `master`.
@@ -32,5 +37,6 @@
 
 * Initial Release
 * Super massive thanks to the awesome work of the maintainers of [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter) who did the vast vast majority of the work needed for this library.
+
 
 

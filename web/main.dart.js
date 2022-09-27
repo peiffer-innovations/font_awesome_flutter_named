@@ -45948,7 +45948,7 @@ this.aO()},
 wa(){var s,r=this,q=r.i3$,p=r.lq$
 p=r.i3$=B.d.b6(B.d.hT(p.gn(p),0,1)*255)
 if(q!==p){s=r.xx$
-p=p>0&&p<255
+p=p>0
 r.xx$=p
 if(r.E$!=null&&s!==p)r.nP()
 r.a2i()

@@ -15,7 +15,7 @@ class FontAwesomeGalleryApp extends StatelessWidget {
       theme: ThemeData.light().copyWith(
         iconTheme: IconThemeData(size: 36.0, color: Colors.black87),
         textTheme: TextTheme(
-          bodyText2: TextStyle(fontSize: 16.0, color: Colors.black87),
+          bodyMedium: TextStyle(fontSize: 16.0, color: Colors.black87),
         ),
       ),
       home: FontAwesomeGalleryHome(),

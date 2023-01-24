@@ -1,3 +1,8 @@
+## [1.1.1+4] - January 24, 2023
+
+* Automated dependency updates
+
+
 ## [1.1.1+3] - December 6, 2022
 
 * Automated dependency updates
@@ -47,6 +52,7 @@
 
 * Initial Release
 * Super massive thanks to the awesome work of the maintainers of [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter) who did the vast vast majority of the work needed for this library.
+
 
 
 

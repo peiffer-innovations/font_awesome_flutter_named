@@ -1,3 +1,8 @@
+## [1.1.2+1] - February 14, 2023
+
+* Automated dependency updates
+
+
 ## [1.1.2] - January 24th, 2023
 
 * Flutter 3.7
@@ -57,6 +62,7 @@
 
 * Initial Release
 * Super massive thanks to the awesome work of the maintainers of [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter) who did the vast vast majority of the work needed for this library.
+
 
 
 

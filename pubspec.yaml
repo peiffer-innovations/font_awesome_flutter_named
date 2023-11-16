@@ -9,12 +9,13 @@ environment:
 dependencies:
   flutter:
     sdk: 'flutter'
-  font_awesome_flutter: '^10.4.0'
+  font_awesome_flutter: '^10.6.0'
 
 dev_dependencies:
   ansicolor: '^2.0.1'
   args: '^2.4.0'
   recase: '^4.1.0'
+  flutter_lints: '^3.0.1'
   flutter_test:
     sdk: 'flutter'
   version: '^3.0.2'
@@ -42,5 +43,6 @@ ignore_updates:
   - 'term_glyph'
   - 'test_api'
   - 'typed_data'
+  - 'uuid'
   - 'vector_math'
   - 'webdriver'
